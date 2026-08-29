@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/autoslider.core_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/autoslider.core/autoslider.core_{{ version }}.tar.gz
-  sha256: c3f3ac9c00e7c30b299a66e7d8ee3d96f8d682f73412187e56c2cbd542adb88a
+  sha256: c05fb85a94825c5433c9a44325de51187f0c0d93dde77e7b22c7d0551c06ea5a
 
 build:
   number: 0
@@ -81,8 +81,8 @@ test:
 about:
   home: https://github.com/insightsengineering/autoslider.core
   license: Apache-2.0
-  summary: The normal process of creating clinical study slides is that a statistician manually type in the numbers from outputs and a separate statistician to double check the typed in numbers. This process is time consuming, resource intensive, and error prone. Automatic slide generation is a solution to address these
-    issues. It reduces the amount of work and the required time when creating slides, and reduces the risk of errors from manually typing or copying numbers from the output to slides. It also helps users to avoid unnecessary stress when creating large amounts of slide decks in a short time window.
+  summary: The normal process of creating clinical study slides is that a statistician manually type in the numbers from outputs and a separate statistician to double check the typed in numbers. This process is time consuming, resource intensive, and error prone. Automatic slide generation is a solution to address 
+    these issues. It reduces the amount of work and the required time when creating slides, and reduces the risk of errors from manually typing or copying numbers from the output to slides. It also helps users to avoid unnecessary stress when creating large amounts of slide decks in a short time window.
   license_family: APACHE
   license_file:
     - LICENSE-2.0.txt
